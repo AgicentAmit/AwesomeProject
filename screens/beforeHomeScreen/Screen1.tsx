@@ -1,14 +1,12 @@
 import {
-  FlatList,
   Image,
   ImageBackground,
   StatusBar,
-  StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
-import React, {useRef, useState} from 'react';
+import React, {useRef} from 'react';
 import {styles} from './Screen1Style';
 import RBSheet from 'react-native-raw-bottom-sheet';
 import {Picker} from 'react-native-wheel-pick';
